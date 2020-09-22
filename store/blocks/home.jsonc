@@ -5,7 +5,7 @@
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
-      "flex-layout.col"
+      "flex-layout.col",
     ]
   },
   "rich-text": {
@@ -42,7 +42,6 @@
       "blockClass": "metal"
     }
   },
-
   "flex-layout.row":{
     "children": [
       "info-card#rethink",
@@ -64,7 +63,6 @@
       "textPosition": "center"
     }
   },
-
   "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
