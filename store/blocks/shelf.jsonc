@@ -1,11 +1,6 @@
 {
   "store.shelf": {
     "blocks": [
-      "rich-text",
-      "info-card#button-right",
-      "info-card#button-left",
-      "flex-layout.row",
-      "flex-layout.col",
       "shelf"
     ]
   },
@@ -24,16 +19,5 @@
         "titleText": "Top sellers"
       }
     }
-  },
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-identifier.summary",
-      "product-summary-buy-button"
-    ]
   }
 }
