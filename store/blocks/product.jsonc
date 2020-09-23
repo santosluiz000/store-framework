@@ -25,8 +25,8 @@
       "buy-button"
     ],
     "props": {
-      "preventVerticalStretch": true,
-      "verticalAlign": "CENTER"
+      "verticalAlign": "CENTER",
+      "preventVerticalStretch": false
     }
   },
   "product-price": {
