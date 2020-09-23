@@ -11,17 +11,17 @@
     }
   },
 
-  "menu-item#major":{
-    "children": [
+  "menu-item#major-appliances":{
+    "blocks": [
       "vtex.menu@2.x:submenu#major"
     ]
   },
   "vtex.menu@2.x:submenu#major":{
     "children":[
-      "vtex.menu@2.x:menu#major"
+      "vtex.menu@2.x:menu#submenumajor"
     ]
   },
-  "vtex.menu@2.x:menu#major" : {
+  "vtex.menu@2.x:menu#submenumajor" : {
     "children": [
       "menu-item#refrigerators",
       "menu-item#ovens",
@@ -33,8 +33,8 @@
   },
 
 
-  "menu-item#small":{
-    "children": [
+  "menu-item#small-appliances":{
+    "blocks": [
       "vtex.menu@2.x:submenu#small"
     ]
   },
