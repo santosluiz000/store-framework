@@ -12,16 +12,16 @@
   },
 
   "menu-item#major-appliances":{
-    "blocks": [
-      "vtex.menu@2.x:submenu#major"
+    "children": [
+      "vtex.menu@2.x:submenu#major-appliances"
     ]
   },
-  "vtex.menu@2.x:submenu#major":{
+  "vtex.menu@2.x:submenu#major-appliances":{
     "children":[
-      "vtex.menu@2.x:menu#major"
+      "vtex.menu@2.x:menu#major-appliances"
     ]
   },
-  "vtex.menu@2.x:menu#major" : {
+  "vtex.menu@2.x:menu#major-appliances" : {
     "children": [
       "menu-item#refrigerators",
       "menu-item#ovens",
@@ -33,17 +33,17 @@
   },
 
 
-  "menu-item#smal-appliances":{
-    "blocks": [
-      "vtex.menu@2.x:submenu#small"
+  "menu-item#small-appliances":{
+    "children": [
+      "vtex.menu@2.x:submenu#small-appliances"
     ]
   },
-  "vtex.menu@2.x:submenu#small":{
+  "vtex.menu@2.x:submenu#small-appliances" : {
     "children":[
-      "vtex.menu@2.x:menu#small"
+      "vtex.menu@2.x:menu#small-appliances"
     ]
   },
-  "vtex.menu@2.x:menu#small" : {
+  "vtex.menu@2.x:menu#small-appliances":{
     "children": [
       "menu-item#mixers",
       "menu-item#toasters",
@@ -75,5 +75,8 @@
       "orientation": "vertical"
     }
   }
+
+
+
 
 }
