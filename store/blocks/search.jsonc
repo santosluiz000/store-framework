@@ -33,7 +33,8 @@
   },
   "flex-layout.col#filter": {
     "children": [
-      "search-content"
+      "search-content",
+      "filter-navigator.v3"
     ],
     "props": {
       "width": "20%"
