@@ -1,11 +1,5 @@
 {
   "store.product": {
-    "blocks": [
-      "product-images",
-      "product-price",
-      "product-name",
-      "buy-button"
-    ],
     "children": [
       "flex-layout.row#main"
     ]
@@ -32,13 +26,13 @@
     ],
     "props": {
       "preventVerticalStretch": true,
-      "verticalAlign": "center"
+      "verticalAlign": "CENTER"
     }
   },
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   }
 }
